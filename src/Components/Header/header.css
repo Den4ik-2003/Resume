@@ -1,0 +1,69 @@
+body {
+  position: relative;
+}
+
+.header {
+  margin: 25px 0;
+}
+
+.burgerContainer {
+  display: none;
+}
+
+@media screen and (max-width: 950px) {
+  .burger {
+    display: block;
+    width: 35px;
+    cursor: pointer;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .navigation.db-block {
+    display: block;
+  }
+
+  .burgerContainer {
+    display: block;
+  }
+
+  .btnHire {
+    display: none;
+  }
+
+  .navigation {
+   background-color: #1C1B22;
+   position: absolute;
+   width: 60vw;
+   height: 100%;
+   right: 0;
+   margin-top: 40px;
+   z-index: 2;
+  }
+
+  .navigation .flex {
+    flex-direction: column;
+    margin-top: 35%;
+  }
+
+  .list {
+    font-size: 24px;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .burger {
+    width: 30px;
+  }
+
+  .logo {
+    font-size: 30px;
+  }
+
+  .navigation {
+    width: 70vw;
+   }
+}

@@ -1,0 +1,136 @@
+.mainScreen div:first-child {
+  width: 50%;
+}
+
+.mainScreen {
+  margin-bottom: 20px;
+}
+
+.mainScreen div h3 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.mainScreen div h1 {
+  font-size: 64px;
+  font-weight: 500;
+}
+
+.mainScreen div h1 span {
+  color: #ff5733;
+}
+
+.mainScreen div p {
+  margin: 20px 0 25px 0;
+}
+
+.programistPhoto {
+  width: 40%;
+}
+
+.github,
+.linkedin,
+.youtube,
+.twiter {
+  cursor: pointer;
+  width: 50px;
+}
+
+.info {
+  gap: 15px;
+}
+
+.lines {
+  gap: 0px;
+}
+
+@media screen and (max-width: 1600px) {
+  .mainScreen div h1 {
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .mainScreen div h1 {
+    font-size: 45px;
+  }
+
+  .btn2 {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .mainScreen {
+    flex-direction: column-reverse;
+    text-align: center;
+    width: 100%;
+  }
+
+  .mainScreen img {
+    width: 50%;
+  }
+
+  .mainScreen div:first-child {
+    width: 100%;
+  }
+
+  .iconsNetwork .flex .github,
+  .iconsNetwork .flex .linkedin,
+  .iconsNetwork .flex .youtube,
+  .iconsNetwork .flex .twiter {
+    width: 50px;
+  }
+
+  .iconsNetwork {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info h1 {
+    font-size: 30px;
+  }
+
+  .info p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .information {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .firstScreen {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .iconsNetwork .flex .github,
+  .iconsNetwork .flex .linkedin,
+  .iconsNetwork .flex .youtube,
+  .iconsNetwork .flex .twiter {
+    width: 35px;
+  }
+
+  .information {
+    justify-content: center;
+  }
+
+  .iconsNetwork .flex {
+    gap: 15px;
+  }
+
+  .mainScreen div h1 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .information {
+    gap: 15px;
+  }
+}
